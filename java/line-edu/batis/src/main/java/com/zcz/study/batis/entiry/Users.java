@@ -1,7 +1,6 @@
 package com.zcz.study.batis.entiry;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 /**
@@ -21,4 +20,10 @@ public class Users {
     private String nickName;
     private String qrcode;
     private String cid;
+    @TableLogic
+    private Short deleted;
+
+    @Version
+    @TableField(fill = FieldFill.INSERT)
+    private Integer version;
 }
