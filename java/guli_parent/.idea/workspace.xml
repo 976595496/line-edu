@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05a2b56-c389-4e0a-95b1-4e85a266f301" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/TeacherController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/entity/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/mapper/TeacherMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/service/TeacherService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/service/impl/TeacherServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/EduTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/entity/EduTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/entity/EduTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../line-edu/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../line-edu/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../line-edu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../line-edu/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -39,8 +35,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/EduTeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="344">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/entity/EduTeacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -62,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/MybatisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="369">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
@@ -104,7 +118,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/service/service_edu/pom.xml" />
-        <option value="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/mapper/TeacherMapper.java" />
         <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/EduApplication.java" />
         <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/mybatisConfig.java" />
@@ -112,6 +125,8 @@
         <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/MyMetaObjectHandler.java" />
         <option value="$PROJECT_DIR$/service/service_edu/src/test/java/CodeGenerator.java" />
         <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/entity/EduTeacher.java" />
         <option value="$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/EduTeacherController.java" />
       </list>
     </option>
@@ -210,6 +225,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guli_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guli_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -382,7 +408,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587101298759</updated>
       <workItem from="1587101316431" duration="3133000" />
-      <workItem from="1587105735193" duration="4354000" />
+      <workItem from="1587105735193" duration="6286000" />
     </task>
     <servers />
   </component>
@@ -407,12 +433,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7487000" />
+    <option name="totallyTimeSpent" value="9419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-320" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,13 +449,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46420825" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46420825" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21149674" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -472,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/mapper/TeacherMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -497,29 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/MybatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/MyMetaObjectHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -556,10 +553,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/entity/EduTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/MyMetaObjectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/service_edu/src/main/java/com/zcz/study/edu/controller/EduTeacherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="344">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
