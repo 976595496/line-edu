@@ -1,6 +1,5 @@
 package com.zcz.study.edu.entity;
 
-import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -22,9 +21,8 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("edu_teacher")
-@ApiModel(value="Teacher对象", description="讲师")
-public class Teacher implements Serializable {
+@ApiModel(value="EduTeacher对象", description="讲师")
+public class EduTeacher implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

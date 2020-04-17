@@ -1,6 +1,6 @@
 package com.zcz.study.edu.mapper;
 
-import com.zcz.study.edu.entity.Teacher;
+import com.zcz.study.edu.entity.EduTeacher;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,5 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author zcz
  * @since 2020-04-17
  */
-public interface TeacherMapper extends BaseMapper<Teacher> {
+public interface EduTeacherMapper extends BaseMapper<EduTeacher> {
+
 }

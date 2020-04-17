@@ -1,8 +1,8 @@
 package com.zcz.study.edu.controller;
 
 
-import com.zcz.study.edu.entity.Teacher;
-import com.zcz.study.edu.service.TeacherService;
+import com.zcz.study.edu.entity.EduTeacher;
+import com.zcz.study.edu.service.EduTeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,15 +20,17 @@ import java.util.List;
  * @since 2020-04-17
  */
 @RestController
-@RequestMapping("/edu/teacher")
-public class TeacherController {
+@RequestMapping("/edu/edu-teacher")
+public class EduTeacherController {
+
     @Autowired
-    private TeacherService teacherService;
+    private EduTeacherService eduTeacherService;
 
     @GetMapping("/find/all")
-    public List<Teacher> findAll(){
-        List<Teacher> list = teacherService.list(null);
+    public List<EduTeacher> findAll(){
+        List<EduTeacher> list = eduTeacherService.list(null);
         return list;
     }
+
 }
 
