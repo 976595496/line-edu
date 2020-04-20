@@ -1,4 +1,4 @@
-package com.zcz.study.edu.config;
+package com.zcz.study.config.config;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
