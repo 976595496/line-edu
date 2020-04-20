@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05a2b56-c389-4e0a-95b1-4e85a266f301" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/zcz/study/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/zcz/study/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../line-edu/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../line-edu/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../line-edu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../line-edu/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/service_base/src/main/java/com/zcz/study/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="125">
+              <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1927" />
     <option name="y" value="-312" />
     <option name="width" value="1936" />
@@ -321,7 +319,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587101298759</updated>
       <workItem from="1587101316431" duration="3133000" />
-      <workItem from="1587105735193" duration="8675000" />
+      <workItem from="1587105735193" duration="8850000" />
     </task>
     <servers />
   </component>
@@ -346,7 +344,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11808000" />
+    <option name="totallyTimeSpent" value="11983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-320" width="1936" height="1056" extended-state="6" />
@@ -526,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/service_base/src/main/java/com/zcz/study/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="125">
+          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
